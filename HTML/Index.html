@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Voici Une maquette HomeDark">
+    <title>HomeDark</title>
+</head>
+<body>
+    <div id="header">
+        <div id="navbar">
+            <div class="language">
+                <i class="fas fa-globe"></i>
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" >Francais</a><!--Menu déroulant pour changer la langue-->
+                    <div class="dropdown-menu" aria-labelledby="deroulanta"><!--Langues disponibles-->
+                        <a class="dropdown-item" href="#">English</a>
+                    </div>
+                </div>
+            </div>
+            <i class="fas fa-mobile"></i>
+            <p class="phone">+440 875369208</p><!--Numéro de téléphone de contact-->
+            <i class="fab fa-telegram-plane"></i>
+            <p class="contact">info@sitename.com</p><!--Adresse mail de contact-->
+            <i class="fas fa-sign-in-alt"></i>
+            <div id="register">
+                <p class="signIn">Sign In</p>
+                <p>/</p>
+                <p class="register">Register</p>
+            </div>
+            <i class="fas fa-heart"></i>
+            <div id="wishList" class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">Whislist: <span class="itemsNumber"></span> items</a>
+                <div class="dropdown-menu" aria-labelledby="deroulanta">
+                    <a class="dropdown-item" href="#">Ma wishlist</a>
+                </div>
+            </div>
+            <div class="social_medias">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-tumblr-square"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-google-plus-square"></i>
+                <i class="fas fa-rss-square"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="header2">
+        <div class="row">
+                <h2 class="title">èxe</h2>
+                <nav class="menu navbar navbar-expand-md navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Home
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Je</a>
+                                <a class="dropdown-item" href="#">sais pas</a>
+                                <a class="dropdown-item" href="#">quoi mettre</a>
+                                </div>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Je sais</a>
+                            <a class="dropdown-item" href="#">toujours pas</a>
+                            <a class="dropdown-item" href="#">quoi mettre</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Feature
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Tu croyais</a>
+                            <a class="dropdown-item" href="#">que je savais</a>
+                            <a class="dropdown-item" href="#">mais non</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            shop
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Je sais</a>
+                            <a class="dropdown-item" href="#"></a>
+                            <a class="dropdown-item" href="#">Eh non</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contacts<span class="sr-only">(current)</span></a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+
+        </div>
+    </div>
+    <div class="container-fluid slider">
+        <div class="row">
+            <div class="col-1 mt-auto mb-auto">
+                <button onclick="slide('left')" type="button" class="btn btn_left"><i class="fas fa-chevron-left"></i></button>
+            </div>
+            <div class="desc col-4 ml-auto mt-auto mb-auto">
+                <h1>Smart moves <span class="end_title">of <span class="rouge">successful</span> business</span></h1>
+                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                <button type="button" class="buy_this btn btn-danger">
+                    buy this now
+                </button>
+                <button type="button" class="live btn btn-outline-dark">live preview</button>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-1 mt-auto mb-auto">
+                <button onclick="slide('right')" type="button" class="btn btn_right"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 clean_design">
+                    <img src="../img/clean.png" alt="Feuille">
+                    <h2>Clean Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 branding">
+                    <img src="../img/Branding.png" alt="Branding">
+                    <h2>Branding</h2>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 responsive">
+                    <img src="../img/Responsive.png" alt="Responsive">
+                    <h2>Responsive</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 development">
+                    <img src="../img/Development.png" alt="Development">
+                    <h2>Development</h2>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/7bc1607fa1.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../CSS/Grand.css" media="screen and (min-width: 1281px)">
+<link rel="stylesheet" href="../CSS/Moyen.css" media="screen and (max-width: 1280px) and (min-width: 721px)">
+<link rel="stylesheet" href="../CSS/Petit.css" media="screen and (max-width: 720px) and (min-width: 481px)">
+<link rel="stylesheet" href="../CSS/Phone.css" media="screen and (max-width: 480px)">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="../JS/Script.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

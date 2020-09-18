@@ -1,0 +1,182 @@
+@font-face{
+    font-family: 'Axis';
+    src: url(../Fonts/AxisExtrabold.otf);
+}
+@font-face{
+    font-family: 'Raleway-ExtraBold';
+    src: url(../Fonts/Raleway/Raleway-ExtraBold.ttf);
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf);
+}
+body{
+    background-color: #252525!important ;
+    height: 5395px;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+    #header{
+        height: 100px;
+        width: 100%;
+        #navbar{
+            height: 100px;
+            background-color: #111111;
+            width: 100%;
+            display: inline-block;
+            i{
+                color: #636363;
+            }
+            .language{
+                width: 30%;
+                color: #636363;
+                display: inline-block;
+                .dropdown{
+                    display: inline-block;
+                    width: 15%;
+                    padding: 0;
+                    margin-left:0px ;
+                    a{
+                        text-decoration: none;
+                        color: #636363;
+                    }
+                }
+            }
+            .phone{
+                width: 65%;
+                color: #636363;
+                display: inline-block;
+            }
+            .contact{
+                color: #636363;
+                width: 38%;
+                display: inline-block;
+            }
+            #register{
+                color: #636363;
+                display: inline-block;
+                p{
+                    cursor: pointer;
+                display: inline-block;
+                }
+                .signIn:hover{
+                    color: #8dc63f;
+                }
+                .register:hover{
+                    color: #8dc63f;
+                }
+                margin-right: 60px;
+            }
+            #wishList{
+                display: inline-block;
+                color: #636363;
+                a{
+                    text-decoration: none;
+                    color: #636363;
+                }
+            }
+            .social_medias{
+                margin-left: 100px;
+                display: inline-block;
+                i{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    #header2{
+        .title{
+            font-family: 'Axis';
+            margin-top: 31px;
+            width: 100px;
+            color: #ffffff;
+        }
+        .menu{
+            width: 869px;
+            text-transform: uppercase;
+            a{
+                text-decoration: none;
+                color: #707070;   
+            }}
+    }
+    .slider{
+        background-image: url(../img/bg_slider.png);
+        height: 795px;
+        .row{
+            height: 795px;
+            .btn_left{
+                background-color: #363636;
+                height: 42px;
+                width: 42px;
+                color: #ffffff;
+            }
+            .btn_right{
+                float: right;
+                background-color: #e5493a;
+                width: 42px;
+                height: 42px;
+                color: #ffffff;
+            }
+            .desc{
+                text-transform: uppercase;
+                h1{
+                    font-family: 'Raleway-ExtraBold';
+                    color: #ffffff;
+                    font-size: 40px;
+                    line-height: 40px;
+                    .end_title{
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 20px;
+                    }
+                    .rouge{
+                        color: #e5493a;
+                    }
+                }
+                p{
+                    color: #555555;
+                    font-family: 'Raleway-ExtraBold';
+                    font-size: 10px;
+                }
+                button{
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    font-family: 'Raleway-ExtraBold';
+                    font-size: 10px;
+                    height: 38px;
+                    width: 100%;
+                }
+                .live{
+                    border: #ffffff solid 1px;
+                }
+            }
+        }
+    }
+    .services{
+        margin-top: 80px;
+        h2{
+            margin-top: 30px;
+            color: #636363;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: uppercase;
+            font-family: 'Raleway-ExtraBold';
+        }
+        p{
+            color: #555555;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            font-family: 'Roboto';
+        }
+        .branding{
+            h2{
+                color: #e5493a;
+            }
+            p{
+                color: #ffffff;
+            }
+        }
+    }
+}
